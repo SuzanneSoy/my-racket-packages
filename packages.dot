@@ -1,5 +1,4 @@
 digraph packages {
-  "type-expander" -> "phc-toolkit"
   "type-expander" -> "hyper-literate"
   "type-expander" -> "scribble-enhanced"
   "scribble-enhanced"
@@ -9,6 +8,7 @@ digraph packages {
   "remember" -> "scribble-enhanced"
   "preexpanded"
   "phc-toolkit" -> "scribble-math"
+  "phc-toolkit" -> "type-expander"
   "phc-adt" -> "remember"
   "phc-adt" -> "phc-toolkit"
   "phc-adt" -> "hyper-literate"
@@ -26,5 +26,5 @@ digraph packages {
   "fix-expanders"
   "anaphoric"
   "scribble-math"
-  "extensible-parser-specifications"
+  "extensible-parser-specifications" -> "phc-toolkit"
 }
