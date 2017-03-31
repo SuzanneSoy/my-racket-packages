@@ -1,8 +1,4 @@
 digraph packages {
-  /* "phc-toolkit" [color=red]
-     "stxparse-info" [color=red]
-     "delay-pure" [color=red] */
-
   "aful" -> "phc-toolkit"
   "aful" -> "scribble-enhanced"
   "anaphoric"
