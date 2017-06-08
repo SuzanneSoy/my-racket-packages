@@ -26,6 +26,7 @@ digraph packages {
   "phc-adt" -> "scribble-math"
   "phc-adt" -> "typed-struct-props"
   "phc-adt" -> "type-expander"
+  "phc-adt" -> "xlist"
   "phc-graph" -> "aful"
   "phc-graph" -> "delay-pure"
   "phc-graph" -> "hyper-literate"
@@ -58,4 +59,9 @@ digraph packages {
   "type-expander" -> "auto-syntax-e"
   "type-expander" -> "hyper-literate"
   "type-expander" -> "scribble-enhanced"
+  "xlist" -> "scribble-enhanced"
+  "xlist" -> "multi-id"
+  "xlist" -> "type-expander"
+  "xlist" -> "phc-tookkit"
+  "xlist" -> "scribble-math"
 }

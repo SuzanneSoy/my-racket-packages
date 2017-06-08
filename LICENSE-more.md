@@ -1,9 +1,5 @@
-multi-id
-
-Parts of this this software were initially written as part of a project
-at Cortus, S.A.S. which can be reached at 97 Rue de Freyr, 34000
-Montpellier, France. I got their permission to redistribute the code in
-the Public Domain.
+packages
+Copyright (c) Georges Dupéron 2016-2017.
 
 
 
